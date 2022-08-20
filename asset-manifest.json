@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BillPapasak/BillPapasak.github.io/static/css/main.b425c2e0.css",
+    "main.js": "/BillPapasak/BillPapasak.github.io/static/js/main.9df7033f.js",
+    "static/js/787.0d620448.chunk.js": "/BillPapasak/BillPapasak.github.io/static/js/787.0d620448.chunk.js",
+    "index.html": "/BillPapasak/BillPapasak.github.io/index.html",
+    "main.b425c2e0.css.map": "/BillPapasak/BillPapasak.github.io/static/css/main.b425c2e0.css.map",
+    "main.9df7033f.js.map": "/BillPapasak/BillPapasak.github.io/static/js/main.9df7033f.js.map",
+    "787.0d620448.chunk.js.map": "/BillPapasak/BillPapasak.github.io/static/js/787.0d620448.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b425c2e0.css",
+    "static/js/main.9df7033f.js"
+  ]
+}
