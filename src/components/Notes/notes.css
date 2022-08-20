@@ -1,0 +1,34 @@
+.notes-wrapper {
+
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.note-wrapper {
+
+    position: relative;
+    display: flex;
+    min-height: 60px;
+    min-width: 200px;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    transition: all .3s;
+    z-index: 1;
+}
+
+.note-wrapper:hover {
+
+    transform: scale(1.12);
+    box-shadow: 0 0 7px black;
+    
+}
+
+.note-info {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

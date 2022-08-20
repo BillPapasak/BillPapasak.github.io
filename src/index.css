@@ -1,13 +1,56 @@
+*:not(.material-icons){
+  font-family: 'Italianno', cursive, 'Material Icons' !important;
+
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Italianno', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.note-icon {
+
+  font-size: 2.4rem !important;
+}
+
+a {
+
+  text-decoration: none;
+  padding: .35rem 1rem 0 1rem;
+  border-radius: 5px;
+}
+
+a:active {
+  background-color: rgb(175, 64, 132);
+  
+}
+a:hover {
+  background-color: rgb(175, 64, 132);
+}
+
+@media only screen and (max-width: 600px) {
+
+  *::-webkit-scrollbar{
+    display: none;
+  }
+
+  * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  a {
+    padding: .35rem .3rem 0 .3rem;
+  }
 }
